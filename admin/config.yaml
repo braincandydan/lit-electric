@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: braincandydan/lit-electric
+  branch: main
+
+media_folder: "images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "/"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
